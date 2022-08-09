@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_background"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".add_note">
+
+
+    <EditText
+        android:id="@+id/title_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/title_background"
+        android:backgroundTint="@color/title_background"
+        android:ems="10"
+        android:fontFamily="@font/amaranth_bold"
+        android:hint="@string/enter_the_title"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        android:textColor="@color/title"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck">
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/description_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@color/title_background"
+        android:backgroundTint="@color/title_background"
+        android:ems="10"
+        android:fontFamily="@font/baloo_bhai"
+        android:hint="@string/enter_the_description"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textColor="@color/description"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/add_note"
+        android:textColor="@color/white"
+        app:rippleColor="#FFEB3B"
+        tools:ignore="TextContrastCheck" />
+
+
+</LinearLayout>

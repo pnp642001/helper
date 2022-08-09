@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/finger_print_background"
+    android:isScrollContainer="false"
+    tools:context=".finger_print">
+
+    <TextView
+        android:id="@+id/displayView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/welcome_helper"
+        android:textColor="@color/color_welcome"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/resultDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="@string/please_authenticate"
+        android:textAlignment="center"
+        android:textColor="@color/color_welcome"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/displayImage"
+        app:layout_constraintStart_toStartOf="@+id/displayImage"
+        app:layout_constraintTop_toBottomOf="@+id/displayImage"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="173dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="108dp"
+        android:contentDescription="@string/fingerprintlogo"
+        app:layout_constraintEnd_toEndOf="@+id/displayView"
+        app:layout_constraintStart_toStartOf="@+id/displayView"
+        app:layout_constraintTop_toBottomOf="@+id/displayView"
+        app:srcCompat="@mipmap/finger_print_image_round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

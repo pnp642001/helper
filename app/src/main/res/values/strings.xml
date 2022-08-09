@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Helper</string>
+
+    <string name="welcome_helper">WELCOME TO HELPER</string>
+    <string name="please_authenticate">PLEASE AUTHENTICATE</string>
+    <string name="fingerprintlogo">FINGER PRINT LOGO</string>
+    <string name="interract">INTERACT</string>
+    <string name="voice_assistant_backgound">VOICE ASSISTANT BACKGOUND</string>
+    <string name="notetaking_app">Start Taking Notes</string>
+    <string name="enter_the_title">Enter the title</string>
+    <string name="enter_the_description">Enter the Description</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="add_note">ADD NOTE</string>
+    <string name="welcome_notetaker">WELCOME TO NOTE TAKER!</string>
+</resources>
