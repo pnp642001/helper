@@ -1,5 +1,8 @@
 
 # HELPER - at your help
+
+### NOTE: #### To get the source code, please visit the master branch of the repository
+
 ## DESCRIPTION
 
 HELPER is an android application, designed to showcase the new emerging technology of natural language Processing
@@ -21,3 +24,14 @@ The project will help in making using the mobile phone more convenient.
 
 
 The project simply connects the people with the new technologies facilitating the automation, which is the future.
+
+
+
+## Team
+
+- [Parth Patel](https://www.linkedin.com/in/parth-patel-784848194/)
+
+- [Shruti Patel](https://www.linkedin.com/in/shruti-patel-6634401b7/)
+
+- [Saumya Shah](https://www.linkedin.com/in/saumyashah26/)
+
