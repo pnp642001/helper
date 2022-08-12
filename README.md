@@ -1,7 +1,8 @@
 
 # HELPER - at your help
 
-### NOTE: #### To get the source code, please visit the master branch of the repository
+### NOTE: 
+#### To get the source code, please visit the master branch of the repository
 
 ## DESCRIPTION
 
