@@ -4,6 +4,9 @@
 ### NOTE: 
 #### To get the source code, please visit the master branch of the repository
 
+----
+#### Also, watch the demonstration video for better understanding
+
 ## DESCRIPTION
 
 HELPER is an android application, designed to showcase the new emerging technology of natural language Processing
